@@ -7,4 +7,6 @@ def multiply(number1, number2):
     return result
 
 
+x = multiply
+
 print(multiply(6, 8))
