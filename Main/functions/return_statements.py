@@ -2,11 +2,10 @@
                     these values/objects are known as the function's return value'''
 
 
-def multiply(number1, number2):
-    result = number1 * number2
+def multiply(number1=input("Write a number down: "), number2=input("Write another number down: ")):
+    result = int(number1) * int(number2)
+    print(result)
     return result
 
 
-x = multiply
-
-print(multiply(6, 8))
+multiply()
