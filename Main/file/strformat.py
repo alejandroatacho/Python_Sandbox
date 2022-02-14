@@ -1,3 +1,5 @@
+# str.format() = optional method that givers users more control when displaying output
+
 '''animal = "cow"
 item = "moon"
 test = int(input("Write a number down: "))
