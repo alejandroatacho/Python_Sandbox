@@ -5,6 +5,7 @@ import os
 path = "main//file//placeholder//test.txt"  # Cleaner version
 if os.path.exists(path):
     print("that location exists!")
-
+elif os.path.isdir(path):
+    print("That is a directory")
 else:
     print("that location does not exist")
