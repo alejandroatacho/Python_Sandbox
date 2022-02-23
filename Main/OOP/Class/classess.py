@@ -1,4 +1,6 @@
 class Car:
+    wheels = 4  # variables
+
     def __init__(self, make, model, year, color):
         self.make = make
         self.model = model
