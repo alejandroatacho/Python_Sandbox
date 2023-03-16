@@ -1,6 +1,6 @@
 word_count = {}
 
-with open("text.txt", "r") as f:
+with open("placeholder/text.txt", "r") as f:
 
     def function_1():
         counter = 0
