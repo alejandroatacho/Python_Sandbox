@@ -12,3 +12,8 @@ c.subtract(d)
 print(c)
 c.update(d)
 print(c)
+d = Counter(['cats', 'dogs'])
+print(c+d);
+print (c | d)
+print (c & d)
+#Counter object can be used to count the frequency of elements in a list or string
