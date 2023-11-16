@@ -12,4 +12,4 @@ d = list(map(add7,filter(isOdd,a)));
 print (a);
 print (b);
 print (c);
-print (f"hello answers are: {d}")
+print (f"hello answers are: {d}");
