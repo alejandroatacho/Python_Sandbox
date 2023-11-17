@@ -8,3 +8,4 @@ def func(x):
 print(list(map(func, li)))
 print([func(i) for i in li]);
 print ([func(x) for x in li if x%2==0])
+print(map(func,li))
